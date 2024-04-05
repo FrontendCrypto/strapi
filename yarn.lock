@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10c0
 
 "@ampproject/remapping@npm:^2.2.0":
@@ -6563,9 +6563,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -11367,16 +11367,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 0446f024439cd2e50c6c8fa8ba77eaa8370b4180f401a96abf3d1ebc770ac51c1955e12764cde449fde3fff480a61f84388e3505ecdbab778f4bef5f8212c729
+  checksum: 8/5479b7d431cacd5185f8db64bfcb7286ae5e31eb299f4c4f404ad8aa6098b77599563ac4257cb2c37a42f59dfc06a1bec2bcf283bb448f319e37f0feb9a09847
   languageName: node
   linkType: hard
 
@@ -12160,22 +12160,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-plugin-sitemap@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "strapi-plugin-sitemap@npm:3.0.6"
+"strapi-plugin-sitemap@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "strapi-plugin-sitemap@npm:3.1.1"
   dependencies:
-    chalk: "npm:^4.1.2"
-    commander: "npm:^8.3.0"
-    immutable: "npm:^3.8.2"
-    redux-immutable: "npm:^4.0.0"
-    redux-thunk: "npm:^2.3.0"
-    sitemap: "npm:^7.1.0"
-    xml2js: "npm:^0.5.0"
+    chalk: ^4.1.2
+    commander: ^8.3.0
+    immutable: ^3.8.2
+    redux-immutable: ^4.0.0
+    redux-thunk: ^2.3.0
+    sitemap: ^7.1.0
+    xml2js: ^0.5.0
   peerDependencies:
     "@strapi/strapi": ^4.0.0
   bin:
     strapi-sitemap: bin/strapi-sitemap
-  checksum: cd7de33eab2972d093ec17a2158d3056a793ca717a4faee286a94f718d53e30edd697f365013680827e33555b805279c4a40f612adfd7010308a67f0b04a4844
+  checksum: 8/21818166a5f8497e98845ce956495cfa3342ef5a9e12db06ad6f26bc9605f742eed62bc7b42e3f6ebdbcbf4f1eacb471a95fa6e955068046ffa3781ad389098d
   languageName: node
   linkType: hard
 
@@ -12183,12 +12183,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "strapi@workspace:."
   dependencies:
-    "@strapi/plugin-i18n": "npm:^4.15.5"
-    "@strapi/plugin-users-permissions": "npm:^4.15.5"
-    "@strapi/provider-upload-cloudinary": "npm:^4.15.5"
-    "@strapi/strapi": "npm:^4.15.5"
-    pg: "npm:8.11.3"
-    strapi-plugin-sitemap: "npm:^3.0.6"
+    "@strapi/plugin-i18n": ^4.15.5
+    "@strapi/plugin-users-permissions": ^4.15.5
+    "@strapi/provider-upload-cloudinary": ^4.15.5
+    "@strapi/strapi": ^4.15.5
+    pg: 8.11.3
+    strapi-plugin-sitemap: ^3.1.1
   languageName: unknown
   linkType: soft
 
@@ -12839,13 +12839,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 062c1cee1990e6b9419ce8a55162b8dc917eb87f807e4de0327dbc1c2fa4e5f61bc0dd4e034d38ff541d1ed0479b53bcee8e4de3a4075c51a1724eb6216cb6f5
+  checksum: 8/0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
   languageName: node
   linkType: hard
 
